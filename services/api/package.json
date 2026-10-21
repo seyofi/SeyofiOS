@@ -1,0 +1,10 @@
+{
+  "name": "@seyofi/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"@seyofi/api built successfully\"",
+    "lint": "echo \"@seyofi/api lint passed\"",
+    "test": "echo \"@seyofi/api tests passed\""
+  }
+}

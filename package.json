@@ -3,20 +3,25 @@
   "private": true,
   "version": "1.0.0",
   "description": "Seyofi OS Monorepo",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "npm@10.9.9",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "turbo dev",
+    "dev": "npm run dev --workspace=apps/dashboard",
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "turbo test",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
     "@prisma/client": "^6.0.0",
-    "prisma": "^6.0.0",
+    "@types/node": "^26.1.1",
     "eslint": "^10.7.0",
     "prettier": "^3.9.5",
+    "prisma": "^6.0.0",
     "turbo": "^2.10.5",
     "typescript": "^7.0.2"
   }
