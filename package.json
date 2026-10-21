@@ -17,6 +17,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@prisma/client": "^6.0.0",
     "@types/node": "^26.1.1",
     "eslint": "^10.7.0",
