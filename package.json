@@ -1,0 +1,23 @@
+{
+  "name": "seyofi-os",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Seyofi OS Monorepo",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@prisma/client": "^6.0.0",
+    "prisma": "^6.0.0",
+    "eslint": "^10.7.0",
+    "prettier": "^3.9.5",
+    "turbo": "^2.10.5",
+    "typescript": "^7.0.2"
+  }
+}
